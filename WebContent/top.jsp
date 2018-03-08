@@ -34,7 +34,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					 	<span class="icon-bar"></span>
 					 	<span class="icon-bar"></span>
 					 </button> <a class="navbar-brand" href="#">
-					 	<img src="img/软灰.png" alt="issHR" height="50px" style="border-radius: 10px; margin-top: -15px; "/>
+					 	<!-- <img src="img/软灰.png" alt="issHR" height="50px" style="border-radius: 10px; margin-top: -15px; "/> -->
 					 </a>
 				</div>
 				

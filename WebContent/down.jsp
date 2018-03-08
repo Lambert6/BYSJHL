@@ -24,7 +24,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<div class="navbar">
 					<center>当前日期：<% out.print(new java.text.SimpleDateFormat("yyyy'年'MM'月'dd'日' hh:mm:ss").format(new Date())); %><br />
 					
-							© 2001-2017 版权所有 软通动力信息技术（集团）有限公司</a></center>
+							@天津理工大学—天津市大学软件学院 毕业设计</a></center>
 					
 				</div>
 			</div>
