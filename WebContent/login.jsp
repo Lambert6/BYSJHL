@@ -75,7 +75,7 @@
 						<div class="form-group">
 							<label for="remember">
 						<center>	<div id="v_container"
-							style="width: 200px; height: 40px;"></div></center>
+							style="border-radius:50px;width: 200px; height: 40px;"></div></center>
 							<input type="text" id="code_input"
 						class="form-control col-lg-2" placeholder="请输入验证码"
 						style="text-align: center;" />
