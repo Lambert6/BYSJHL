@@ -144,7 +144,7 @@
 		<div class="panel panel-default">
 			<div class="panel-heading">
 				<a class="panel-title" data-toggle="collapse"
-					data-parent="#panel-339643" href="#panel-element-1">普通员工</a>
+					data-parent="#panel-339643" href="#panel-element-1">员工信息</a>
 			</div>
 			<div id="panel-element-1" class="panel-collapse collapse in">
 				<div class="panel-body">
@@ -163,7 +163,7 @@
 		<div class="panel panel-default">
 			<div class="panel-heading">
 				<a class="panel-title" data-toggle="collapse"
-					data-parent="#panel-339643" href="#panel-element-2">实习员工</a>
+					data-parent="#panel-339643" href="#panel-element-2">出租管理</a>
 			</div>
 			<div id="panel-element-2" class="panel-collapse collapse">
 				<div class="panel-body">
@@ -183,7 +183,7 @@
 		<div class="panel panel-default">
 			<div class="panel-heading">
 				<a class="panel-title" data-toggle="collapse"
-					data-parent="#panel-339643" href="#panel-element-3">外包员工</a>
+					data-parent="#panel-339643" href="#panel-element-3">出售管理</a>
 			</div>
 			<div id="panel-element-3" class="panel-collapse collapse">
 				<div class="panel-body">
@@ -203,7 +203,7 @@
 		<div class="panel panel-default">
 			<div class="panel-heading">
 				<a class="panel-title" data-toggle="collapse"
-					data-parent="#panel-339643" href="#panel-element-4">外协员工</a>
+					data-parent="#panel-339643" href="#panel-element-4">客户管理</a>
 			</div>
 			<div id="panel-element-4" class="panel-collapse collapse">
 				<div class="panel-body">
