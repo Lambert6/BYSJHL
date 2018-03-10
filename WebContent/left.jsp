@@ -171,11 +171,11 @@
 				</div>
 				<div class="panel-body">
 					<a target="rightFrame" id="addproject" onclick="addproject()">
-						添加员工</a>
+						添加房源</a>
 				</div>
 				<div class="panel-body">
 					<a target="rightFrame" id="selectproject" onclick="selectproject()">
-						查看员工</a>
+						查看房源</a>
 				</div>
 			</div>
 		</div>
@@ -191,11 +191,11 @@
 				</div>
 				<div class="panel-body">
 					<a target="rightFrame" id="selectprogress"
-						onclick="selectprogress()"> 添加员工</a>
+						onclick="selectprogress()"> 添加房源</a>
 				</div>
 				<div class="panel-body">
 					<a target="rightFrame" id="submitprogress"
-						onclick="submitprogress()"> 查看员工</a>
+						onclick="submitprogress()"> 查看房源</a>
 				</div>
 			</div>
 		</div>
@@ -210,11 +210,11 @@
 					<a target="rightFrame" href="retass.jsp">条件检索</a>
 				</div>
 				<div class="panel-body">
-					<a target="rightFrame" id="addass" onclick="addass()"> 添加员工</a>
+					<a target="rightFrame" id="addass" onclick="addass()"> 添加客户</a>
 				</div>
 				<div class="panel-body">
 					<a target="rightFrame" id="selectass" onclick="selectass()">
-						查看员工</a>
+						查看客户</a>
 				</div>
 			</div>
 		</div>
