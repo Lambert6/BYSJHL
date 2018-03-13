@@ -22,22 +22,22 @@
 </head>
 
 <body style="background-image: url(img/ww.jpg);">
-<center><h3><font color="red">全部员工</font></h3></center>
+<center><h3><font color="red">全部房源</font></h3></center>
 	<table class="table"  style="text-align:center; font-size: 7px; border: 1;">
 
 		<tr>
 		<thead>
 					<tr>
-						<th>ID</th>
-						<th>姓名</th>
-						<th>性别</th>
-						<th>年龄</th>
-						<th>邮箱</th>
-						<th>电话</th>
-						<th>住址</th>
-						<th>民族</th>
-						<th>QQ</th>
-						<th>部门</th>
+						<th>房源ID</th>
+						<th>业主姓名</th>
+						
+						<th>房龄</th>
+						<th>业主邮箱</th>
+						<th>联系方式</th>
+						<th>房源地址</th>
+						<th>户型</th>
+						<th>朝向</th>
+						<th>租金/月(元)</th>
 						<th>职位</th>
 						<th>工资</th>
 						<th>身份证</th>
@@ -50,7 +50,7 @@
 			<tr class="success" style="margin-top: 2px;">
 				<td>${map.t_id}</td>
 				<td>${map.t_name}</td>
-				<td>${map.t_sex}</td>
+				
 				<td>${map.t_age}</td>
 				<td>${map.t_email}</td>
 				<td>${map.t_phone}</td>

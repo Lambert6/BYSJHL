@@ -33,18 +33,23 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					 	<span class="icon-bar"></span>
 					 	<span class="icon-bar"></span>
 					 	<span class="icon-bar"></span>
-					 </button> <a class="navbar-brand" href="#">
+					 </button> 
+					  <a class="navbar-brand" href="#"><font color="#47D1D1"><strong>房地产信息管理系统</strong></font></a>
 					 	<!-- <img src="img/软灰.png" alt="issHR" height="50px" style="border-radius: 10px; margin-top: -15px; "/> -->
 					 </a>
 				</div>
 				
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
+				<div class="collapse navbar-collapse"  id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav"     >
+					
+						<li >
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						</li>
 						<li >
 							 <a href="firstpage.jsp" target="rightFrame">首页</a>
 						</li>
 						<li>
-							 <a href="introduce.html" target="rightFrame">联系我们</a>
+							 <a href="introduce.html" target="rightFrame">公司风采</a>
 						</li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
