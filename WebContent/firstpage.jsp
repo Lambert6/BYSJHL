@@ -15,10 +15,10 @@
 <link href="carousel.css" rel="stylesheet">
 
 
-<body style="background-image: url(img/ww.jpg);">
+<body style="background-image: url(img/蓝色太阳扁平化.jpg);width:100%;    height:100%">
 
-<img  src="img/首页给钥匙.png" height="900px" width="1200px">
-	
+<img style="text-align: left;" src="img/首页给钥匙.png" height="350px" width="500px">
+<img style="text-align: right;" src ="img/首页搬房子.png"	height="500px" width="700px">
 
 </body>
 </html>

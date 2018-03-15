@@ -121,7 +121,7 @@
 		var statue = document.getElementById("cbox");
 		if (res) {
 			
-			alert("验证正确");
+			
 			login.action = "login.action?name=*&pwd=*";
 			login.submit();
 

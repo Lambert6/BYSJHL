@@ -46,12 +46,18 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<label class="control-label col-lg-2" for="inputSuccess3">性别：</label>
 			<div class="col-sm-3">
 				<div class="radio">
-					<label>
-						<input type="radio" name="c_sex" id="optionsRadios1" value="男" checked> 男
+				<label>
+						<input type="radio"  id="optionsRadios2" value="女"checked>全部
 					</label>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<label>
+						<input type="radio" name="c_sex" id="optionsRadios1" value="男" > 男
+					</label>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<label>
 						<input type="radio" name="c_sex" id="optionsRadios2" value="女">女
 					</label>
+					
 				</div>
 		</div>
 
@@ -112,9 +118,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<label class="control-label col-sm-2" for="inputSuccess3">部门：</label>
 			<div class="col-sm-3">
 				<select name="c_dept" class="form-control" id="inputError1">
-					<option value="销售部">销售部</option>
-					<option value="研发部">研发部</option>
-					<option value="财务部">财务部</option>
+					<option value="经纪人">经纪人</option>
+					<option value="理件处">理件处</option>
+					<option value="审理部">财务部</option>
 					<option value="行政部">行政部</option>
 				</select>
 			</div>
