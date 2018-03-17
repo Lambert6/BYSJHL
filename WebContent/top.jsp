@@ -48,9 +48,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						<li >
 							 <a href="firstpage.jsp" target="rightFrame">首页</a>
 						</li>
-						<li>
+						<!-- <li>
 							 <a href="introduce.html" target="rightFrame">公司风采</a>
-						</li>
+						</li> -->
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li style="margin-top:15px;">
@@ -64,9 +64,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						<li>
 							 <a href="usermsg.jsp" target="rightFrame">用户信息</a>
 						</li>
-						<li>
-							 <a href="updatePwd.jsp" target="rightFrame" onclick="judgmentAuthority()">修改密码</a>
-						</li>
+						
 						<li>
 							 <a href="login.jsp" target="_parent">退出</a>
 						</li>

@@ -29,28 +29,26 @@
 		<thead>
 					<tr>
 						<th>房源ID</th>
-						<th>业主姓名</th>
-						
+						<th>业主姓名</th>					
 						<th>房龄</th>
 						<th>业主邮箱</th>
 						<th>联系方式</th>
 						<th>房源地址</th>
 						<th>户型</th>
-						<th>朝向</th>
 						<th>租金/月(元)</th>
+						<th>朝向</th>
 						<th>楼层</th>
-						<th>工资</th>
-						<th>身份证</th>
-						<th>开户行</th>
-						<th>银行卡</th>
+						<th>经纪人</th>
+						<th>经纪人级别</th>
+						
+						
 						<th>基本操作</th>
 					</tr>
 				</thead>
 		<c:forEach items="${tralist}" var="map" varStatus="listStatus">
 			<tr class="success" style="margin-top: 2px;">
 				<td>${map.t_id}</td>
-				<td>${map.t_name}</td>
-				
+				<td>${map.t_name}</td>			
 				<td>${map.t_age}</td>
 				<td>${map.t_email}</td>
 				<td>${map.t_phone}</td>
@@ -61,8 +59,8 @@
 				<td>${map.t_duty}</td>
 				<td>${map.t_salary}</td>
 				<td>${map.t_card}</td>		
-				<td>${map.t_bank}</td>
-				<td>${map.t_bankid}</td>
+				
+				
 								
 				<td>
 				<button type="button" class="btn btn-info btn-xs" onclick='mydetails(this.parentNode.parentNode)'>详情</button>

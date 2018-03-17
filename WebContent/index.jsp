@@ -28,7 +28,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	}
 </script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>软通动力人力资源管理系统</title>
+<title>房地产信息管理系统</title>
 </head>
 <frameset rows="50,*,50" cols="*" frameborder="no" border="0" framespacing="0">
   <frame src="top.jsp" name="topFrame"  noresize="noresize" id="topFrame" title="topFrame" />
