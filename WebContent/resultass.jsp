@@ -43,6 +43,7 @@
 						<th>身份证</th>
 						<th>毕业学校</th>
 						<th>所在项目</th>
+						<th>基本操作</th>
 					</tr>
 				</thead>
 		<c:forEach items="${asslist1}" var="map" varStatus="listStatus">

@@ -20,9 +20,11 @@
 			}
 		</style>
 </head>
-
+<script language="javascript" type="text/javascript">
+window.setTimeout("window.location='welcome.jsp'",3500);
+</script>
 <body style="background-image: url(img/ww.jpg);">
-	<h1><font color="red">对不起，此用户不存在，点击<a href="welcome.jsp">返回</a></font></h1>
+	<h1><font color="red">对不起，检索结果不存在，三秒后返回，如果浏览器无反应，点击<a href="welcome.jsp">返回</a></font></h1>
 </body>
 
 </html>

@@ -22,13 +22,13 @@
 </head>
 
 <body style="background-image: url(img/ww.jpg);">
-<center><h3><font color="red">全部员工</font></h3></center>
+<center><h3><font color="red">全部客户</font></h3></center>
 	<table class="table"  style="text-align:center; font-size: 7px; border: 1;">
 
 		<tr>
 		<thead>
 					<tr>
-						<th>ID</th>
+							<th>ID</th>
 						<th>姓名</th>
 						<th>性别</th>
 						<th>年龄</th>
@@ -43,6 +43,7 @@
 						<th>身份证</th>
 						<th>毕业学校</th>
 						<th>所在项目</th>
+						<th>基本操作</th>
 					</tr>
 				</thead>
 		<c:forEach items="${asslist}" var="map" varStatus="listStatus">

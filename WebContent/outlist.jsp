@@ -22,7 +22,7 @@
 </head>
 
 <body style="background-image: url(img/ww.jpg);">
-<center><h3><font color="red">全部员工</font></h3></center>
+<center><h3><font color="red">全部出售房源</font></h3></center>
 	<table class="table"  style="text-align:center; font-size: 7px; border: 1;">
 
 		<tr>
@@ -32,47 +32,41 @@
 							ID
 						</th>
 						<th>
-							姓名
+							房源地址
 						</th>
 						<th>
-							年龄
+							房龄
 						</th>
 						<th>
-							性别
+							房型
 						</th>
 						<th>
-							邮箱
+							朝向
 						</th>
 						<th>
-							电话
+							楼层
 						</th>
 						<th>
-							QQ
+							面积
 						</th>
 						<th>
-							住址
+							总价
 						</th>
 						<th>
-							部门
+							单价
 						</th>
 						<th>
-							职位
+							业主姓名
 						</th>
 						<th>
-							工资
+							业主电话
 						</th>
 						<th>
-							身份证
+						经纪人
 						</th>
 						<th>
-							民族
+							经纪人电话
 						</th>
-						<!-- <th>
-							开户行
-						</th>
-						<th>
-							银行卡
-						</th> -->
 						<th>
 							基本操作
 						</th>
@@ -93,8 +87,7 @@
 				<td>${map.o_salary}</td>
 				<td>${map.o_card}</td>
 				<td>${map.o_nation}</td>			
-				<%-- <td>${map.c_bank}</td>
-				<td>${map.c_bankid}</td> --%>
+				
 								
 				<td>
 				

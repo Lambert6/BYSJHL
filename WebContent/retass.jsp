@@ -16,10 +16,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 <body style="background-image: url(img/ww.jpg);">
 <form method="post" id="myform" class="form-horizontal">
-		<center><h3><font color="red">检索员工</font></h3></center>
+		<center><h3><font color="red">检索客户</font></h3></center>
 			
 			<div class="form-group has-success has-feedback">
-				<label class="control-label col-sm-3" for="inputSuccess3">员工名：</label>
+				<label class="control-label col-sm-3" for="inputSuccess3">姓名：</label>
 				<div class="col-sm-6">
 					<input type="text" name="a_name" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status">
 					<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
@@ -71,7 +71,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			
 			
 			<div class="form-group has-success has-feedback">
-				<label class="control-label col-sm-3" for="inputSuccess3">家庭住址：</label>
+				<label class="control-label col-sm-3" for="inputSuccess3">客户学历：</label>
 				<div class="col-sm-6">
 					<input type="text" name="a_address" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status">
 					<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
@@ -80,7 +80,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</div>
 			
 			<div class="form-group has-error has-feedback">
-				<label class="control-label col-sm-3" for="inputSuccess3">民族：</label>
+				<label class="control-label col-sm-3" for="inputSuccess3">是否贷款：</label>
 				<div class="col-sm-6">
 					<input type="text" name="a_nation" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status">
 					<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
@@ -91,7 +91,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			
 			
 			<div class="form-group has-success has-feedback">
-				<label class="control-label col-sm-3" for="inputSuccess3">QQ：</label>
+				<label class="control-label col-sm-3" for="inputSuccess3">户型：</label>
 				<div class="col-sm-6">
 					<input type="text" name="a_qq" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status">
 					<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
@@ -100,33 +100,26 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</div>
 			
 			<div class="form-group has-error has-feedback">
-				<label class="control-label col-sm-3" for="inputSuccess3">部门：</label>
+				
+				<label class="control-label col-sm-3" for="inputSuccess3">预算价格：</label>
 				<div class="col-sm-6">
-					<select name="a_dept" class="form-control" id="inputError1">
-					<option value=""></option>
-					<option value="销售部">销售部</option>
-					<option value="研发部">研发部</option>
-					<option value="财务部">财务部</option>
-					<option value="行政部">行政部</option>
-					</select>
+					<input type="text" name="a_dept" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status">
+					<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+					<span id="inputSuccess3Status" class="sr-only">(success)</span>
 				</div>
 			</div>
 			
 			<div class="form-group has-error has-feedback">
-				<label class="control-label col-sm-3" for="inputSuccess3">职位：</label>
+				<label class="control-label col-sm-3" for="inputSuccess3">最大需求：</label>
 				<div class="col-sm-6">
-					<select name="a_duty" class="form-control" id="inputError1">
-					<option value=""></option>
-					<option value="经理">经理</option>
-					<option value="主管">主管</option>
-					<option value="主管">组长</option>
-					<option value="主管">普通</option>
-					</select>
+					<input type="text" name="a_duty" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status">
+					<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+					<span id="inputSuccess3Status" class="sr-only">(success)</span>
 				</div>
 			</div>
 			
 			<div class="form-group has-success has-feedback">
-				<label class="control-label col-sm-3" for="inputSuccess3">工资：</label>
+				<label class="control-label col-sm-3" for="inputSuccess3">位置：</label>
 				<div class="col-sm-6">
 					<input type="text" name="a_salary" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status">
 					<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
@@ -135,7 +128,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</div>
 			
 			<div class="form-group has-success has-feedback">
-				<label class="control-label col-sm-3" for="inputSuccess3">身份证号码：</label>
+				<label class="control-label col-sm-3" for="inputSuccess3">意愿度：</label>
 				<div class="col-sm-6">
 					<input type="text" name="a_card" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status">
 					<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
@@ -144,7 +137,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</div>
 			
 			<div class="form-group has-error has-feedback">
-				<label class="control-label col-sm-3" for="inputSuccess3">毕业学校：</label>
+				<label class="control-label col-sm-3" for="inputSuccess3">维护经纪人：</label>
 				<div class="col-sm-6">
 					<input type="text" name="a_school" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status">
 					<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
@@ -153,7 +146,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</div>
 			
 			<div class="form-group has-success has-feedback">
-				<label class="control-label col-sm-3" for="inputSuccess3">所在项目：</label>
+				<label class="control-label col-sm-3" for="inputSuccess3">带看次数：</label>
 				<div class="col-sm-6">
 					<input type="text" name="a_project" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status">
 					<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
