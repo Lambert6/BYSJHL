@@ -68,7 +68,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						
 						<div class="form-group">
 							<label for="password" class="sr-only">Password</label>
-							<input type="password" class="form-control"required="true"   placeholder="请输入旧密码" autocomplete="off">
+							<input type="password" class="form-control"required="true"   placeholder="请输入邮箱" autocomplete="off">
 						</div>
 						<div class="form-group">
 							<label for="password" class="sr-only">Password</label>
